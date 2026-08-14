@@ -1,0 +1,31 @@
+{
+  "name": "curso-origamid-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariafcknt/curso-origamid-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mariafcknt/curso-origamid-javascript/issues"
+  },
+  "homepage": "https://github.com/mariafcknt/curso-origamid-javascript#readme",
+  "devDependencies": {
+    "@babel/core": "^8.0.1",
+    "@babel/plugin-transform-runtime": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "babel-loader": "^10.1.1",
+    "eslint": "^10.8.1",
+    "webpack": "^5.109.2",
+    "webpack-cli": "^7.2.2"
+  }
+}
