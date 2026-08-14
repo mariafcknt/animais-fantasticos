@@ -1,7 +1,6 @@
 {
-  "name": "curso-origamid-javascript",
+  "name": "animais-fantasticos",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -12,7 +11,6 @@
     "url": "git+https://github.com/mariafcknt/curso-origamid-javascript.git"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {

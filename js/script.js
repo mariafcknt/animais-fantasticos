@@ -28,5 +28,3 @@ initMenuMobile()
 initFuncionamento()
 initFetchAnimais()
 initFetchBitcoin()
-
-
