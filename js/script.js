@@ -20,7 +20,6 @@ import initFetchBitcoin from './modules/fetch-bitcoin.js'
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]')
 scrollSuave.init()
 
-initAnimacaoScroll()
 initAccordion()
 initTabNav()
 initModal()
@@ -30,3 +29,4 @@ initMenuMobile()
 initFuncionamento()
 initFetchAnimais()
 initFetchBitcoin()
+initAnimacaoScroll()
