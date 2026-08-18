@@ -51,7 +51,6 @@ export default class Tooltip {
   }
 
   init() {
-    console.log('teste')
     if (this.tooltips.length) {
       this.addTooltipsEvent()
     }
