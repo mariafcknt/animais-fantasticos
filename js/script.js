@@ -9,6 +9,7 @@ import initFuncionamento from './modules/funcionamento.js'
 import fetchAnimais from './modules/fetch-animais.js'
 import fetchBitcoin from './modules/fetch-bitcoin.js'
 import ScrollAnima from './modules/scroll-anima.js'
+import debounce from './modules/debounce.js'
 
 // import { teste1, teste2 } from "./modules/teste.js";
 // import * as teste from "./modules/teste.js";
