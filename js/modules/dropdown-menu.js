@@ -3,11 +3,10 @@ import outsideClick from './outside-click.js'
 export default class DropdownMenu {
   constructor(dropdownMenus, events) {
     this.dropdownMenus = document.querySelectorAll(dropdownMenus)
-    events = ['touchstart', 'click']
 
-    //define touchstart e click como argumento padrão de events caso o usuário não defina
+    // define touchstart e click como argumento padrão de events caso o usuário não defina
     if (events === undefined) {
-      events = ['touchstart', 'click']
+      this.events = ['touchstart', 'click']
     } else {
       this.events = events
     }
